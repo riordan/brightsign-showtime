@@ -7,6 +7,7 @@ RUN conda install -y \
     pillow \
     scipy
 
+RUN pip install git+https://github.com/riordan/python-resize-image.git
 
 RUN mkdir /opt/notebooks
 
