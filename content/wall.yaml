@@ -1,0 +1,99 @@
+setup:
+    protocol: sftp
+    server: gurley.brown.columbia.edu
+    user: mediawall
+    pass: tktk
+    port: 2222
+    basepath: /mediawall/screen/
+    feed: $id/feed.xml
+frames:
+  inside:
+      - id: 50 # Device ID
+        screen-size: 42 # String to describe screen size. This will become dimensions soon
+        resolution: 1920x1080 # DEFAULT: 1366	×	768 String to describe screen resolution
+        screen-rotation: 90 # DEFAULT 0 describes rotation of screen. 4 valid options [landscape, landscape-top, portrait-left, portrait-right] Directions are to describe positioning of the BOTTOM of the screen
+        media-filepath:
+        sync-group: -1 # DEFAULT: -1 Integer for which sync group it should be a part of. -1 means no sync group
+        description: >
+                        Inside tallscreen. Usually used to display posters and immediately relevant data. Much of the time
+                        it operates independent of the rest of the screens.
+
+      - id: 30
+        screen-size: 12
+        screen-rotation: 90
+
+      - id: 31
+        screen-size: 8
+        screen-rotation: 0
+
+      - id: 32
+        screen-size: 8
+        screen-rotation: 8
+
+      - id: 33
+        screen-size: 10
+        screen-rotation: 90
+
+      - id: 34
+        screen-size: 15
+        screen-rotation: 0
+
+      - id: 35
+        screen-size: 10
+        screen-rotation: 0
+
+      - id: 36
+        screen-size: 8
+        screen-rotation: 270
+
+      - id: 37
+        screen-size: 12
+        screen-rotation: 0
+
+      - id: 38
+        screen-size: 12
+        screen-rotation: 0
+
+      - id: 39
+        screen-size: 8
+        screen-rotation: 0
+
+      - id: 40
+        screen-size: 15
+        screen-rotation: 0
+
+      - id: 41
+        screen-size: 8
+        screen-rotation: 0
+
+      - id: 42
+        screen-size: 10
+        screen-rotation: 0
+
+      - id: 43
+        screen-size: 8
+        screen-rotation: 0
+
+      - id: 44
+        screen-size: 10
+        screen-rotation: 0
+
+      - id: 45
+        screen-size: 12
+        screen-rotation: 90
+
+      - id: 46
+        screen-size: 8
+        screen-rotation: 270
+
+      - id: 47
+        screen-size: 15
+        screen-rotation: 0
+
+      - id: 48
+        screen-size: 10
+        screen-rotation: 0
+
+      - id: 49
+        screen-size: 8
+        screen-rotation: 270

@@ -5,6 +5,7 @@ RUN conda install -y \
     jupyter \
     numpy \
     pillow \
+    pyyaml \
     scipy
 
 
