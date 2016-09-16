@@ -1,0 +1,5 @@
+config:
+  deploy:
+    server: gurley.brown.columbia.edu
+    protocol: sftp # Will only start w/ SFTP. Consider extending to Samba
+    user: 
